@@ -1,0 +1,31 @@
+{
+  "name": "camera-capture",
+  "displayName": "Camera Capture",
+  "description": "Capture photos using camera for research",
+  "version": "0.0.3",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": ["Other"],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "cameraCapture.openCamera",
+        "title": "Open Camera Capture",
+        "category": "Camera"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.74.0",
+    "@types/node": "16.x",
+    "typescript": "^4.9.4"
+  }
+}
