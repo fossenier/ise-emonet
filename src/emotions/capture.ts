@@ -16,7 +16,7 @@ interface CaptureResult {
   error?: string; // Optional: error message if something went wrong
 }
 
-class CameraCapture {
+export class CameraCapture {
   // VS Code's output channel for logging
   private outputChannel: vscode.OutputChannel;
   // Path to the extension, used for locating resources

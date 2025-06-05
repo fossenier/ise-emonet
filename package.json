@@ -14,16 +14,16 @@
     "contributes": {
         "commands": [
             {
-                "command": "camera-capture.capture",
-                "title": "Camera: Capture Photo"
+                "command": "emotion-detector.captureAndAnalyze",
+                "title": "Camera: Capture Photo and Analyze"
             },
             {
-                "command": "camera-capture.showOutput",
-                "title": "Camera: Show Output Log"
+                "command": "emotion-detector.checkHealth",
+                "title": "Camera: Check API Health"
             },
             {
-                "command": "camera-capture.openCaptures",
-                "title": "Camera: Open Captures Folder"
+                "command": "emotion-detector.showOutput",
+                "title": "Camera: Show Output"
             }
         ],
         "configuration": {
